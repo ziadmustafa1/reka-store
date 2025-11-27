@@ -1,11 +1,13 @@
 export const siteConfig = {
-  name: 'reka-store',
-  description: 'Built with NextCraft',
+  name: 'REKA STORE',
+  description: 'متجر ريكا - أفضل المنتجات بأسعار منافسة',
   url: 'https://reka-store.com',
   ogImage: 'https://reka-store.com/og.jpg',
+  phone: '01205980358',
+  whatsapp: '01205980358',
   links: {
-    twitter: 'https://twitter.com/reka-store',
-    github: 'https://github.com/reka-store',
+    facebook: 'https://facebook.com/reka-store',
+    instagram: 'https://instagram.com/reka-store',
   },
 }
 

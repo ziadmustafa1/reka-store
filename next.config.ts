@@ -17,11 +17,18 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
-      // Add your image domains here
-      // {
-      //   protocol: 'https',
-      //   hostname: 'example.com',
-      // }
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'placehold.co',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pravatar.cc',
+      }
     ]
   },
   
